@@ -1,12 +1,37 @@
-import React from 'react'
+import {useEffect, useState} from 'react'
 import Edit1 from '../assets/Edit2.png'
 import reactjs from '../assets/reactjs.svg'
 import javascript from '../assets/javascript.svg'
 import nodejs from '../assets/nodejs-icon.svg'
 import nextjs from '../assets/next-js.svg'
 import {toast} from 'react-toastify'
+import lenicle1 from '../assets/Me@Lenicle3.jpg'
+import lenicle2 from '../assets/Me@Lenicle2.jpg'
+import lenicle3 from '../assets/Me@Lenicle4.jpg'
+import lenicle4 from '../assets/Me@Linecle1.jpg'
+import lenicle5 from '../assets/Me@Linecle5.jpg'
+
+const images = [
+  {image: lenicle1, alt: 'Me@Lenicle3'},
+  {image: lenicle2, alt: 'Me@Lenicle2'},
+  {image: lenicle3, alt: 'Me@Lenicle4'},
+  {image: lenicle4, alt: 'Me@Lenicle1'},
+  {image: lenicle5, alt: 'Me@Lenicle5'}
+]
 
 function Header() {
+
+  const [currentImageIndex, setCurrentImageIndex] = useState(0)
+
+  useEffect(()=>{
+    const timetInterval = setInterval(()=>{
+      setCurrentImageIndex((preIndex)=>(
+        preIndex < images.length - 1 ? preIndex + 1 : 0
+      ))
+    }, 5000)
+    return ()=> clearInterval(timetInterval)
+  },[])
+  
   return (
     <div class="w-full flex flex-col px-8 md:px-10 lg:flex-row py-20 gap-10 2xl:gap-20">
       <div class="flex flex-col mb-20 lg:mb-0"
@@ -48,12 +73,12 @@ function Header() {
         </div>
       </div>
       <div class="w-[320px] h-[320px] md:w-[600px] md:h-[600px] 2xl:w-[700px] 2xl:h-[700px] border-gray-600 dark:border-gray-200 rounded-full  border lg:mt-0 relative md:mt-20 flex items-center justify-center ">
-        <img src={Edit1} alt='ProfileImage' class="w-auto h-full -top-5 md:-top-10 absolute"
-          data-aos='fade-down'
-          data-aos-offset='200'
-          data-aos-delay='50'
-          data-aos-duration='500'
-          data-aos-easing='ease-in-out'/>
+         {images.map((image, index)=>(
+          <img key = {index} 
+               src={image.image} 
+               alt={image.alt} class={`w-[320px] h-[320px] md:w-[600px] md:h-[600px] 2xl:w-[700px] 2xl:h-[700px] rounded-full absolute object-cover transition-opacity ease-in-out duration-1000 ${index === currentImageIndex ? 'opacity-100' : 'opacity-0'}`}
+          />
+        ))}
         <div class="w-full h-full rounded-full relative"
           data-aos='fade-up'
           data-aos-offset='200'
