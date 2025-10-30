@@ -23,7 +23,7 @@ function About() {
         data-aos-delay='50'
         data-aos-duration='1000'
         data-aos-easing='ease-in-out' class="text-lg text-black dark:text-gray-300 leading-10 justify-start">
-          I am a highly skilled Fullstack Software Developer with 3 years plus of hands-on experience in developing robust websites and applications using React.js (JavaScript) and Python(FastAPI). My expertise extends to various JavaScript technologies, including jQuery, Node.js and Next.js. I have been an integral part of successful projects, contributing to their design, development, and deployment phases from conceptualization to implementation. 
+          I am a highly skilled Fullstack Software Developer with 4 years of hands-on experience in developing robust websites and applications using React.js (JavaScript) and Python(FastAPI). My expertise extends to various JavaScript technologies, including jQuery, Node.js and Next.js. I have been an integral part of successful projects, contributing to their design, development, and deployment phases from conceptualization to implementation. 
         </p>
         <div class="flex flex-wrap gap-5 mt-5 2xl:mt-10"
           data-aos-offset='100'
