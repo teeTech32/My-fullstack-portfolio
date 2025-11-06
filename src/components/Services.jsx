@@ -65,10 +65,10 @@ const Services = () => {
     dots: true,
     arrows: false,
     infinite: true,
-    speed: 3000,
+    speed: 1000,
     slidesToScroll: 1, // ✅ fixed typo
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 4000,
     cssEase: 'linear',
     pauseOnHover: true,
     pauseFocus: true,
