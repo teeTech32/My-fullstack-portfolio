@@ -65,7 +65,7 @@ const Services = () => {
     dots: true,
     arrows: false,
     infinite: true,
-    speed: 1000,
+    speed: 3000,
     slidesToScroll: 1, // ✅ fixed typo
     autoplay: true,
     autoplaySpeed: 2000,
