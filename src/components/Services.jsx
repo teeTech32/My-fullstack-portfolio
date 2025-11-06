@@ -6,6 +6,7 @@ const services = [
    {
     id : 1,
     header: 'Backend Development',
+    img: 'https://app.lottiefiles.com/share/543b94a7-1c92-45f4-94e1-43c2b5ca53fc',
     h1: 'Power your applications with seamless, scalable, and secure backend solutions!',
     h2: 'Optimize performance and reliability with cutting-edge backend architecture.',
     h3: 'From APIs to databases, we build the backbone of your digital success!',
@@ -14,6 +15,7 @@ const services = [
    {
     id : 2,
     header: 'Fullstack Web Development',
+    img: 'https://app.lottiefiles.com/share/543b94a7-1c92-45f4-94e1-43c2b5ca53fc',
     h1: 'Build powerful, end-to-end web solutions with our full-stack expertise!',
     h2: 'From stunning frontends to rock-solid backends, we bring your vision to life.',
     h3: 'Seamless, scalable, and secure—our full-stack development covers it all!.',
@@ -22,6 +24,7 @@ const services = [
   {
     id : 3,
     header: 'Front-end Web Development',
+    img: 'https://app.lottiefiles.com/share/543b94a7-1c92-45f4-94e1-43c2b5ca53fc',
     h1: 'Boost Your Brand with Stunning Frontend Development!',
     h2: '🚀Sleek, responsive, and high-performance websites.',
     h3: '🎨 Pixel-perfect UI/UX tailored to your vision.',
@@ -30,6 +33,7 @@ const services = [
    {
     id : 4,
     header: 'Software Development',
+    img: 'https://app.lottiefiles.com/share/543b94a7-1c92-45f4-94e1-43c2b5ca53fc',
     h1: 'Innovative software solutions tailored to your business needs—fast, secure, and scalable!',
     h2: 'From concept to deployment, we turn ideas into powerful software solutions.',
     h3: 'Custom-built software to streamline your workflow and elevate your success!',
@@ -38,6 +42,7 @@ const services = [
    {
     id : 5,
     header: 'Website Maintenance',
+    img: 'https://app.lottiefiles.com/share/543b94a7-1c92-45f4-94e1-43c2b5ca53fc',
     h1: 'Keep your website running smoothly with our expert maintenance services!',
     h2: 'Ensure your website stays fast, secure, and error-free—24/7 support available!',
     h3: "From security updates to performance optimization, we’ve got you covered.",
@@ -46,6 +51,7 @@ const services = [
    {
     id : 6,
     header: 'Application Development',
+    img: 'https://app.lottiefiles.com/share/543b94a7-1c92-45f4-94e1-43c2b5ca53fc',
     h1: 'Turn your ideas into powerful apps—fast, scalable, and built to impress!',
     h2: 'From concept to code, we create seamless, high-performance applications.',
     h3: 'Custom apps tailored to your business—innovate, automate, and grow!',
@@ -117,6 +123,7 @@ const Services = () => {
                     <div>
                       <h1 class='text-xs lg:text-sm font-bold text-center'>{data.header}</h1>
                     </div>
+                        <img src={data.img} alt='Network Issues' object-cover class="w-[100px] h-[50px] m-4"/>
                     <div class="flex flex-col items-center  pt-2 lg:pt-4">
                       <div class="space-y-1 lg:space-y-2 ">
                         <p class="text-xs text-white">{data.h1}</p>
