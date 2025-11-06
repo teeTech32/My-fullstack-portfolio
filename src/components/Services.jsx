@@ -1,3 +1,4 @@
+import { Player } from '@lottiefiles/react-lottie-player';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Slider  from 'react-slick'
@@ -123,7 +124,12 @@ const Services = () => {
                     <div>
                       <h1 class='text-xs lg:text-sm font-bold text-center'>{data.header}</h1>
                     </div>
-                        <img src={data.img} alt='Network Issues' object-cover class="w-[100px] h-[50px] m-4"/>
+                        <Player
+                           autoplay
+                           loop
+                           src={data.img}
+                           style={{ height: '100px', width: '100px', margin: 'auto' }}
+                         />
                     <div class="flex flex-col items-center  pt-2 lg:pt-4">
                       <div class="space-y-1 lg:space-y-2 ">
                         <p class="text-xs text-white">{data.h1}</p>
