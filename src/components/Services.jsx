@@ -65,7 +65,7 @@ const Services = () => {
     dots: true,
     arrows: false,
     infinite: true,
-    speed: 500,
+    speed: 1000,
     slidesToScroll: 1, // ✅ fixed typo
     autoplay: true,
     autoplaySpeed: 2000,
@@ -117,7 +117,6 @@ const Services = () => {
           innovate, and keep your digital presence thriving!
         </p>
       </div>
-
       <div>
         <Slider {...settings}>
           {services.map((data) => (
@@ -140,7 +139,7 @@ const Services = () => {
                   autoplay
                   loop
                   src={data.img}
-                  style={{ height: '100px', width: '100px', margin: 'auto' }}
+                  style={{ height: '100px', width: '100px', display: 'block',  margin: 'auto' }}
                 />
                 <div className="flex flex-col items-center pt-2 lg:pt-4">
                   <div className="space-y-1 lg:space-y-2">
@@ -150,7 +149,6 @@ const Services = () => {
                     <p className="text-xs text-white">{data.h4}</p>
                   </div>
                 </div>
-
                 <p className="dark:text-white text-5xl font-serif absolute top-0 right-2">
                   ;
                 </p>
