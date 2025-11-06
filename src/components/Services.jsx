@@ -1,4 +1,4 @@
-import { Player } from '@lottiefiles/react-lottie-player';
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
@@ -135,7 +135,7 @@ const Services = () => {
                     {data.header}
                   </h1>
                 </div>
-                <Player
+                <DotLottieReact
                   autoplay
                   loop
                   src={data.img}
