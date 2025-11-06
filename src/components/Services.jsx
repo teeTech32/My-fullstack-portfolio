@@ -7,7 +7,7 @@ const services = [
   {
     id: 1,
     header: 'Backend Development',
-    img: 'https://lottie.host/8d9aefef-94da-4a59-bce9-d83cda1696c4/B4Kx5x5DWj.json',
+    img: 'https://assets3.lottiefiles.com/packages/lf20_UJNc2t.json',
     h1: 'Power your applications with seamless, scalable, and secure backend solutions!',
     h2: 'Optimize performance and reliability with cutting-edge backend architecture.',
     h3: 'From APIs to databases, we build the backbone of your digital success!',
