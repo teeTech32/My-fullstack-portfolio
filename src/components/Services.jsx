@@ -17,28 +17,43 @@ const services = [
 ];
 
 const Services = () => {
-  const settings = {
-    dots: true,
-    arrows: false,
-    infinite: true,
-    speed: 1000,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 3000,
-    cssEase: 'ease-in-out',
-    pauseOnHover: true,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: { slidesToShow: 2, slidesToScroll: 1 },
-      },
-      {
-        breakpoint: 640,
-        settings: { slidesToShow: 1, slidesToScroll: 1 },
-      },
-    ],
-  };
+  var settings = {
+      dots:true,
+      arrows: false,
+      infinite: true,
+      speed: 500,
+      slidesToScrolls: 1,
+      autoplay: true,
+      autoplaySpeed:2000,
+      cssEase:'linear',
+      pauseOnHover: true,
+      pauseFocus: true,
+      responsive:[
+        {
+          breakpoint: 10000,
+          settings:{
+            slidesToShow:3,
+            slidesToScroll:1,
+            infinite: true,
+          },
+        },
+        {
+          breakpoint:1024,
+          settings:{
+            slidesToShow:2,
+            slidesToScroll:1,
+            initialSlide:2,
+          },
+        },
+        {
+          breakpoint: 640,
+            settings:{
+            slidesToShow:1,
+            slidesToScroll:1
+          }
+        }
+      ]
+    }
 
   return (
     <div className="pt-20">
@@ -61,7 +76,7 @@ const Services = () => {
           <div key={data.id} data-aos="flip-left" className="my-6 lg:my-8">
             <div className="flex flex-col gap-4 shadow-lg py-8 px-6 mx-4 rounded-xl bg-black dark:bg-blue-900 text-white relative">
               <h1 className="text-xs lg:text-sm font-bold text-center">{data.header}</h1>
-              <Player autoplay loop src={data.img} style={{ height: '100px', width: '100px', margin: 'auto' }} />
+              <Player autoplay loop src={data.img} style={{ height: '100px', width: '100px', display: 'block', margin: 'auto' }} />
               <div className="flex flex-col items-center pt-2 lg:pt-4 space-y-2">
                 <p className="text-xs text-white">{data.h1}</p>
                 <p className="text-xs text-white">{data.h2}</p>
