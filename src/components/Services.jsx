@@ -25,7 +25,7 @@ const services = [
   {
     id: 3,
     header: 'Front-end Web Development',
-    img: 'https://lottie.host/dcb469da-1233-4213-94e9-7e8f53a60a38/KyGQhyJ7fM.lottie',
+    img: 'https://lottie.host/aadbe933-6150-4a8a-a6b4-2e12eb425b4a/XuiIZ9X1Rf.lottie',
     h1: 'Boost Your Brand with Stunning Frontend Development!',
     h2: '🚀 Sleek, responsive, and high-performance websites.',
     h3: '🎨 Pixel-perfect UI/UX tailored to your vision.',
