@@ -1,6 +1,5 @@
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
-import frontDeveloper from '../assets/loper.lottie';
-import frontloper from '../assets/mhoyinsk.lottie'
+import frontDevelopment from '../assets/loper.lottie';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
@@ -27,7 +26,7 @@ const services = [
   {
     id: 3,
     header: 'Front-end Web Development',
-    img: 'https://lottie.host/aadbe933-6150-4a8a-a6b4-2e12eb425b4a/XuiIZ9X1Rf.lottie',
+    img: `${frontDevelopment}`,
     h1: 'Boost Your Brand with Stunning Frontend Development!',
     h2: '🚀 Sleek, responsive, and high-performance websites.',
     h3: '🎨 Pixel-perfect UI/UX tailored to your vision.',
@@ -141,7 +140,7 @@ const Services = () => {
                   autoplay
                   loop
                   src={data.img}
-                  style={{ height: '100px', width: '100px', display: 'block',  margin: 'auto' }}
+                  style={{ height: '200px', width: '200px', display: 'block',  margin: 'auto' }}
                 />
                 <div className="flex flex-col items-center pt-2 lg:pt-4">
                   <div className="space-y-1 lg:space-y-2">
