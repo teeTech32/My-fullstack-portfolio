@@ -1,5 +1,6 @@
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
-import frontDeveloper from '../assets/Developer.lottie
+import frontDeveloper from '../assets/Developer.lottie';
+import frontloper from '../assets/Developer.lottie
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
@@ -44,7 +45,7 @@ const services = [
   {
     id: 5,
     header: 'Website Maintenance',
-    img: 'https://lottie.host/6f91dbe4-8a14-49a8-b3d1-fb3b9316b15c/Vu8vCrbqEt.json',
+    img: `${frontloper}`,
     h1: 'Keep your website running smoothly with our expert maintenance services!',
     h2: 'Ensure your website stays fast, secure, and error-free—24/7 support available!',
     h3: 'From security updates to performance optimization, we’ve got you covered.',
