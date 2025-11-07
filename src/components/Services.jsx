@@ -1,4 +1,5 @@
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
+import frontDeveloper from '../assets/Developer.lottie
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
@@ -34,7 +35,7 @@ const services = [
   {
     id: 4,
     header: 'Software Development',
-    img: 'https://lottie.host/9b4f2748-baa3-4a31-801c-642c93e91cc7/4G7QxNwHpg.json',
+    img: `${frontDeveloper}`,
     h1: 'Innovative software solutions tailored to your business needs—fast, secure, and scalable!',
     h2: 'From concept to deployment, we turn ideas into powerful software solutions.',
     h3: 'Custom-built software to streamline your workflow and elevate your success!',
