@@ -69,7 +69,7 @@ const Services = () => {
     speed: 1000,
     slidesToScroll: 1, // ✅ fixed typo
     autoplay: true,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 5000,
     cssEase: 'linear',
     pauseOnHover: true,
     pauseFocus: true,
