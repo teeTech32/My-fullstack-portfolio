@@ -35,7 +35,7 @@ const services = [
   {
     id: 4,
     header: 'Software Development',
-    img: `${frontDeveloper}`,
+    img: `${frontDevelopment}`,
     h1: 'Innovative software solutions tailored to your business needs—fast, secure, and scalable!',
     h2: 'From concept to deployment, we turn ideas into powerful software solutions.',
     h3: 'Custom-built software to streamline your workflow and elevate your success!',
@@ -44,7 +44,7 @@ const services = [
   {
     id: 5,
     header: 'Website Maintenance',
-    img: `${frontloper}`,
+    img: `${frontDevelopment}`,
     h1: 'Keep your website running smoothly with our expert maintenance services!',
     h2: 'Ensure your website stays fast, secure, and error-free—24/7 support available!',
     h3: 'From security updates to performance optimization, we’ve got you covered.',
