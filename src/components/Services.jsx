@@ -136,12 +136,16 @@ const Services = () => {
                     {data.header}
                   </h1>
                 </div>
-                <DotLottieReact
-                  autoplay
-                  loop
-                  src={data.img}
-                  style={{ height: '200px', width: '200px', display: 'block',  margin: 'auto' }}
-                />
+                 <DotLottieReact
+                    autoplay
+                    loop
+                    src={data.img}
+                    style={{
+                      width: '100%',
+                      maxWidth: '200px',
+                      height: 'auto',
+                    }}
+                  />
                 <div className="flex flex-col items-center pt-2 lg:pt-4">
                   <div className="space-y-1 lg:space-y-2">
                     <p className="text-xs text-white">{data.h1}</p>
