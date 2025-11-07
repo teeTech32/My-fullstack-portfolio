@@ -16,7 +16,7 @@ const services = [
   {
     id: 2,
     header: 'Fullstack Web Development',
-    img: 'https://lottiefiles.com/free-animation/developer-front-end-Wtv3yP2k4r',
+    img: 'https://lottie.host/4db68bbd-31f6-4cd8-84eb-189de081159a/IGmMCqhzpt.lottie',
     h1: 'Build powerful, end-to-end web solutions with our full-stack expertise!',
     h2: 'From stunning frontends to rock-solid backends, we bring your vision to life.',
     h3: 'Seamless, scalable, and secure—our full-stack development covers it all!',
@@ -25,7 +25,7 @@ const services = [
   {
     id: 3,
     header: 'Front-end Web Development',
-    img: 'https://lottie.host/dcb469da-1233-4213-94e9-7e8f53a60a38/KyGQhyJ7fM.json',
+    img: 'https://lottie.host/dcb469da-1233-4213-94e9-7e8f53a60a38/KyGQhyJ7fM.lottie',
     h1: 'Boost Your Brand with Stunning Frontend Development!',
     h2: '🚀 Sleek, responsive, and high-performance websites.',
     h3: '🎨 Pixel-perfect UI/UX tailored to your vision.',
