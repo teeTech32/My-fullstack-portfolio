@@ -1,6 +1,6 @@
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 import frontDeveloper from '../assets/Developer.lottie';
-import frontloper from '../assets/Developer.lottie
+import frontloper from '../assets/mhoyinsk.lottie
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
