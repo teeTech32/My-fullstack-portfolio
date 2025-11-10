@@ -1,5 +1,10 @@
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 import frontDevelopment from '../assets/loper.lottie';
+import backDevelopment from '../assets/backend.lottie';
+import fullDevelopment from '../assets/fullstack.lottie';
+import webMaintenance from '../assets/wedmainte.lottie';
+import softDevelopment from '../assets/software.lottie';
+import appDevelopment from '../assets/application.lottie';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
@@ -8,7 +13,7 @@ const services = [
   {
     id: 1,
     header: 'Backend Development',
-    img: 'https://assets3.lottiefiles.com/packages/lf20_UJNc2t.json',
+    img: `${backDevelopment}`,
     h1: 'Power your applications with seamless, scalable, and secure backend solutions!',
     h2: 'Optimize performance and reliability with cutting-edge backend architecture.',
     h3: 'From APIs to databases, we build the backbone of your digital success!',
@@ -17,7 +22,7 @@ const services = [
   {
     id: 2,
     header: 'Fullstack Web Development',
-    img: 'https://lottie.host/4db68bbd-31f6-4cd8-84eb-189de081159a/IGmMCqhzpt.lottie',
+    img: `${fullDevelopment}`,
     h1: 'Build powerful, end-to-end web solutions with our full-stack expertise!',
     h2: 'From stunning frontends to rock-solid backends, we bring your vision to life.',
     h3: 'Seamless, scalable, and secure—our full-stack development covers it all!',
@@ -35,7 +40,7 @@ const services = [
   {
     id: 4,
     header: 'Software Development',
-    img: `${frontDevelopment}`,
+    img: `${softDevelopment}`,
     h1: 'Innovative software solutions tailored to your business needs—fast, secure, and scalable!',
     h2: 'From concept to deployment, we turn ideas into powerful software solutions.',
     h3: 'Custom-built software to streamline your workflow and elevate your success!',
@@ -44,7 +49,7 @@ const services = [
   {
     id: 5,
     header: 'Website Maintenance',
-    img: `${frontDevelopment}`,
+    img: `${webMaintenance}`,
     h1: 'Keep your website running smoothly with our expert maintenance services!',
     h2: 'Ensure your website stays fast, secure, and error-free—24/7 support available!',
     h3: 'From security updates to performance optimization, we’ve got you covered.',
@@ -53,7 +58,7 @@ const services = [
   {
     id: 6,
     header: 'Application Development',
-    img: 'https://lottie.host/8a5a3793-8e8c-4b42-86a3-fba1bbdf8e5a/C8o2JrUJt8.json',
+    img: `${appDevelopment}`,
     h1: 'Turn your ideas into powerful apps—fast, scalable, and built to impress!',
     h2: 'From concept to code, we create seamless, high-performance applications.',
     h3: 'Custom apps tailored to your business—innovate, automate, and grow!',
@@ -143,7 +148,7 @@ const Services = () => {
                     style={{
                       width: '100%',
                       maxWidth: '300px',
-                      height: '300px',
+                      height: '280px',
                     }}
                   />
                 <div className="flex flex-col items-center pt-2 lg:pt-4">
