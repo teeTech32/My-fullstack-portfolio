@@ -142,8 +142,8 @@ const Services = () => {
                     src={data.img}
                     style={{
                       width: '100%',
-                      maxWidth: '200px',
-                      height: 'auto',
+                      maxWidth: '300px',
+                      height: '300px',
                     }}
                   />
                 <div className="flex flex-col items-center pt-2 lg:pt-4">
