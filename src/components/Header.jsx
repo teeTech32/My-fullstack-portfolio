@@ -1,5 +1,4 @@
 import {useEffect, useState} from 'react'
-import Edit1 from '../assets/Edit2.png'
 import reactjs from '../assets/reactjs.svg'
 import javascript from '../assets/javascript.svg'
 import nodejs from '../assets/nodejs-icon.svg'
