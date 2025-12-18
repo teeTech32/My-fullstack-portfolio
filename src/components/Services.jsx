@@ -141,7 +141,8 @@ const Services = () => {
                     {data.header}
                   </h1>
                 </div>
-                 <DotLottieReact
+                <div className = "flex justify-center">
+                  <DotLottieReact
                     autoplay
                     loop
                     src={data.img}
@@ -151,6 +152,7 @@ const Services = () => {
                       height: '300px',
                     }}
                   />
+                </div>
                 <div className="flex flex-col items-center pt-2 lg:pt-4">
                   <div className="space-y-1 lg:space-y-2">
                     <p className="text-xs text-white">{data.h1}</p>
