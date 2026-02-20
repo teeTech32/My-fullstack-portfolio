@@ -34,10 +34,10 @@ function About() {
           data-aos='zoom-in-left'>
             <PiReadCvLogoFill size={18}/>MY CV
           </a> 
-          <p class="flex gap-3 px-4 py-2 items-center justify-center text-white bg-[#030a1c] rounded-full shadow-lg font-bold cursor-pointer" data-aos='zoom-in-right'>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=timothyabidemi4618@gmail.com" target="_blank" class="flex gap-3 px-4 py-2 items-center justify-center text-white bg-[#030a1c] rounded-full shadow-lg font-bold cursor-pointer" data-aos='zoom-in-right'>
             <MdOutlineAlternateEmail size={14} />timothyabidemi4618@gmail.com
-          </p>
-          <a href='https://wa.me/+234 703 2603814' class="flex gap-3 px-4 py-2 items-center justify-center text-white bg-[#030a1c] rounded-full shadow-lg font-bold cursor-pointer" data-aos='zoom-in-left'>
+          </a>
+          <a href="https://wa.me/2347032603814"  target="_blank" class="flex gap-3 px-4 py-2 items-center justify-center text-white bg-[#030a1c] rounded-full shadow-lg font-bold cursor-pointer" data-aos='zoom-in-left'>
             <BsWhatsapp size={14} />+234 703 2603814
           </a> 
         </div>
