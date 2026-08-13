@@ -4,18 +4,22 @@ import javascript from '../assets/javascript.svg'
 import nodejs from '../assets/nodejs-icon.svg'
 import nextjs from '../assets/next-js.svg'
 import {toast} from 'react-toastify'
-import lenicle1 from '../assets/Me@Lenicle3.jpg'
-import lenicle2 from '../assets/Me@Lenicle2.jpg'
-import lenicle3 from '../assets/Me@Lenicle4.jpg'
-import lenicle4 from '../assets/Me@Linecle1.jpg'
-import lenicle5 from '../assets/Me@Linecle5.jpg'
+import Edit from '../assets/Edit.jpg'
+import Edit1 from '../assets/Edit1.jpg'
+import Edit2 from '../assets/Edit2.jpg'
+import Edit3 from '../assets/Edit3.jpg'
+import Edit4 from '../assets/Edit4.jpg'
+import Edit5 from '../assets/Edit5.jpg'
+import Edit6 from '../assets/Edit6.jpg'
 
 const images = [
-  {image: lenicle1, alt: 'Me@Lenicle3'},
-  {image: lenicle2, alt: 'Me@Lenicle2'},
-  {image: lenicle3, alt: 'Me@Lenicle4'},
-  {image: lenicle4, alt: 'Me@Lenicle1'},
-  {image: lenicle5, alt: 'Me@Lenicle5'}
+  {image: Edit, alt: 'Edit'},
+  {image: Edit1, alt: 'Edit1'},
+  {image: Edit2, alt: 'Edit2'},
+  {image: Edit3, alt: 'Edit3'},
+  {image: Edit4, alt: 'Edit4'},
+  {image: Edit5, alt: 'Edit5'},
+  {image: Edit6, alt: 'Edit6'}
 ]
 
 function Header() {
