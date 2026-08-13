@@ -1,5 +1,5 @@
 import React from 'react'
-import Edit from '../assets/Edit.png'
+import Edit from '../assets/Edit.jpg'
 import { MdOutlineAlternateEmail } from 'react-icons/md'
 import { BsWhatsapp } from 'react-icons/bs'
 import { PiReadCvLogoFill } from "react-icons/pi";
